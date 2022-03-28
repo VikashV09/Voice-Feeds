@@ -1,0 +1,113 @@
+body{
+font-family: "Times New Roman";
+background-image: url("voice.jpg");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-color: black;
+}
+
+
+a{	color: #ffff00;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    color: black;
+}
+
+button:focus {
+    outline: 0;
+}
+button{
+	background-color: 
+ #0099e6;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
+}
+
+.tz-link {
+    font-size: 1em;
+    color: #1da7da;
+    text-decoration: none;
+}
+
+.no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: #e64427;
+    margin-top: 35px;
+}
+
+.app {
+    margin: 40px auto;
+}
+
+#note-textarea {
+    margin: 45px 0;
+	border: 1px solid black;
+	font-color: black;
+
+background: linear-gradient(to bottom right, #006666 -16%, #33ccff 100%);
+}
+
+#recording-instructions {
+    margin: 15px auto 60px;
+}
+
+#notes {
+    padding-top: 20px;
+}
+
+.note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none;
+    margin-left: 15px;
+	color: blue;
+}
+h1{color: #a2b9bc;
+font-family: "Georgia";
+}
+h3{
+	font-family: "Georgia";
+	color: #black;}
+
+.note .content {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 25px;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+
+}   
+
+
+
